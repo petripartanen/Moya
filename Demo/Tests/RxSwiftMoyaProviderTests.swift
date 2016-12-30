@@ -57,11 +57,11 @@ class RxSwiftMoyaProviderSpec: QuickSpec {
             }
             
             it("returns the correct error message") {
-                var receivedError: Moya.Error?
+                var receivedError: MoyaError?
                 
                 waitUntil { done in
                     _ = provider.request(.zen).subscribe(onError: { error in
-                        receivedError = error as? Moya.Error
+                        receivedError = error as? MoyaError
                         done()
                     })
                 }
