@@ -65,6 +65,9 @@
 		1DC29BB31D3694B10041B1DC /* TestPlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DC29BB01D36949C0041B1DC /* TestPlugin.swift */; };
 		1DC29BB41D3694B20041B1DC /* TestPlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DC29BB01D36949C0041B1DC /* TestPlugin.swift */; };
 		36CED1FF03F2BD97EFDFCC07 /* Pods_MoyaTests_Mac.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8A2ED7FAC502C9DEFF05137 /* Pods_MoyaTests_Mac.framework */; };
+		3B3D216E1E163C8F00DF5423 /* Zen.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3B3D216D1E163C8F00DF5423 /* Zen.txt */; };
+		3B3D216F1E163C8F00DF5423 /* Zen.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3B3D216D1E163C8F00DF5423 /* Zen.txt */; };
+		3B3D21701E163C8F00DF5423 /* Zen.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3B3D216D1E163C8F00DF5423 /* Zen.txt */; };
 		3BA460521E15EB9100511D6A /* MultiTargetSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA460501E15EA4700511D6A /* MultiTargetSpec.swift */; };
 		3BA460531E15EB9200511D6A /* MultiTargetSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA460501E15EA4700511D6A /* MultiTargetSpec.swift */; };
 		3BA460541E15EB9200511D6A /* MultiTargetSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA460501E15EA4700511D6A /* MultiTargetSpec.swift */; };
@@ -119,6 +122,7 @@
 		1DC29BB01D36949C0041B1DC /* TestPlugin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestPlugin.swift; sourceTree = "<group>"; };
 		286AAA5F0654F6F6A0CFF235 /* Pods_MoyaTests_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MoyaTests_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		292BF354BC027FDF50F146C1 /* Pods-DemoMultiTarget.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoMultiTarget.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DemoMultiTarget/Pods-DemoMultiTarget.debug.xcconfig"; sourceTree = "<group>"; };
+		3B3D216D1E163C8F00DF5423 /* Zen.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Zen.txt; sourceTree = "<group>"; };
 		3BA460501E15EA4700511D6A /* MultiTargetSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MultiTargetSpec.swift; sourceTree = "<group>"; };
 		3B4D21BB1E16075C00E2AB87 /* MultipartFormDataSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MultipartFormDataSpec.swift; sourceTree = "<group>"; };
 		4BF06D5D3DD24C44F9301FB5 /* Pods-Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Demo.release.xcconfig"; path = "Pods/Target Support Files/Pods-Demo/Pods-Demo.release.xcconfig"; sourceTree = "<group>"; };
@@ -193,6 +197,7 @@
 		067D49661C0D3886005BBA79 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
+				3B3D216C1E163BF000DF5423 /* Fixtures */,
 				067D49681C0D3886005BBA79 /* EndpointSpec.swift */,
 				067D49691C0D3886005BBA79 /* Error+MoyaSpec.swift */,
 				067D496A1C0D3886005BBA79 /* ErrorTests.swift */,
@@ -251,6 +256,14 @@
 				14E5C6461DE148960008CCC3 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3B3D216C1E163BF000DF5423 /* Fixtures */ = {
+			isa = PBXGroup;
+			children = (
+				3B3D216D1E163C8F00DF5423 /* Zen.txt */,
+			);
+			path = Fixtures;
 			sourceTree = "<group>";
 		};
 		4EA28E847926FEF1338D42F3 /* Frameworks */ = {
@@ -495,6 +508,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B3D216F1E163C8F00DF5423 /* Zen.txt in Resources */,
 				067D49A11C0D3886005BBA79 /* testImage.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -503,6 +517,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B3D21701E163C8F00DF5423 /* Zen.txt in Resources */,
 				067D49A21C0D3886005BBA79 /* testImage.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -531,6 +546,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B3D216E1E163C8F00DF5423 /* Zen.txt in Resources */,
 				067D49A01C0D3886005BBA79 /* testImage.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
